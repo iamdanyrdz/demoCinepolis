@@ -1,0 +1,40 @@
+PODS:
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - SDWebImage/Core (5.12.5)
+  - SDWebImageWebPCoder (0.8.4):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - SDWebImageWebPCoder
+  - SwiftKeychainWrapper
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - libwebp
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SwiftKeychainWrapper
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: d78e4f8f01825cb5599cc55e0248ea6d326bc966
+
+COCOAPODS: 1.11.3
